@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B27E432E22F1B300FC31E4 /* SafarGet Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18B27E422E22F1B300FC31E4 /* SafarGet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B27E442E22F1B300FC31E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B27E1E2E22F1B200FC31E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B27E412E22F1B300FC31E4;
+			remoteInfo = "SafarGet Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18B27E622E22F1B300FC31E4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18B27E432E22F1B300FC31E4 /* SafarGet Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18B27E262E22F1B200FC31E4 /* SafarGet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafarGet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B27E422E22F1B300FC31E4 /* SafarGet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafarGet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18B27E5C2E22F1B300FC31E4 /* Exceptions for "SafarGet Extension" folder in "SafarGet Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18B27E412E22F1B300FC31E4 /* SafarGet Extension */;
+		};
+		18B27E5D2E22F1B300FC31E6 /* Exceptions for "SafarGet" folder in "SafarGet" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18B27E252E22F1B200FC31E4 /* SafarGet */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18B27E282E22F1B200FC31E4 /* SafarGet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18B27E5D2E22F1B300FC31E6 /* Exceptions for "SafarGet" folder in "SafarGet" target */,
+			);
+			path = SafarGet;
+			sourceTree = "<group>";
+		};
+		18B27E462E22F1B300FC31E4 /* SafarGet Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18B27E5C2E22F1B300FC31E4 /* Exceptions for "SafarGet Extension" folder in "SafarGet Extension" target */,
+			);
+			path = "SafarGet Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B27E232E22F1B200FC31E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B27E3F2E22F1B300FC31E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B27E1D2E22F1B200FC31E4 = {
+			isa = PBXGroup;
+			children = (
+				18B27E282E22F1B200FC31E4 /* SafarGet */,
+				18B27E462E22F1B300FC31E4 /* SafarGet Extension */,
+				18B27E272E22F1B200FC31E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B27E272E22F1B200FC31E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B27E262E22F1B200FC31E4 /* SafarGet.app */,
+				18B27E422E22F1B300FC31E4 /* SafarGet Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B27E252E22F1B200FC31E4 /* SafarGet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B27E632E22F1B300FC31E4 /* Build configuration list for PBXNativeTarget "SafarGet" */;
+			buildPhases = (
+				18B27E222E22F1B200FC31E4 /* Sources */,
+				18B27E232E22F1B200FC31E4 /* Frameworks */,
+				18B27E242E22F1B200FC31E4 /* Resources */,
+				18B27E622E22F1B300FC31E4 /* Embed Foundation Extensions */,
+				18B27E632E22F1B300FC31E5 /* Fix Library Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B27E452E22F1B300FC31E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18B27E282E22F1B200FC31E4 /* SafarGet */,
+			);
+			name = SafarGet;
+			packageProductDependencies = (
+			);
+			productName = SafarGet;
+			productReference = 18B27E262E22F1B200FC31E4 /* SafarGet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B27E412E22F1B300FC31E4 /* SafarGet Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B27E5D2E22F1B300FC31E4 /* Build configuration list for PBXNativeTarget "SafarGet Extension" */;
+			buildPhases = (
+				18B27E3E2E22F1B300FC31E4 /* Sources */,
+				18B27E3F2E22F1B300FC31E4 /* Frameworks */,
+				18B27E402E22F1B300FC31E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18B27E462E22F1B300FC31E4 /* SafarGet Extension */,
+			);
+			name = "SafarGet Extension";
+			packageProductDependencies = (
+			);
+			productName = "SafarGet Extension";
+			productReference = 18B27E422E22F1B300FC31E4 /* SafarGet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B27E1E2E22F1B200FC31E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					18B27E252E22F1B200FC31E4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					18B27E412E22F1B300FC31E4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 18B27E212E22F1B200FC31E4 /* Build configuration list for PBXProject "SafarGet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				fr,
+			);
+			mainGroup = 18B27E1D2E22F1B200FC31E4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18B27E272E22F1B200FC31E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B27E252E22F1B200FC31E4 /* SafarGet */,
+				18B27E412E22F1B300FC31E4 /* SafarGet Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B27E242E22F1B200FC31E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B27E402E22F1B300FC31E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B27E632E22F1B300FC31E5 /* Fix Library Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Fix Library Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Fix dynamic library dependencies for bundled executables\n\necho \"🔧 Fixing dynamic library dependencies...\"\n\n# Get the app bundle path\nAPP_BUNDLE=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nRESOURCES_DIR=\"${APP_BUNDLE}/Contents/Resources\"\n\n# Check if resources directory exists\nif [[ ! -d \"${RESOURCES_DIR}\" ]]; then\n    echo \"⚠️ Resources directory not found: ${RESOURCES_DIR}\"\n    echo \"✅ Skipping library dependency fixing\"\n    exit 0\nfi\n\n# Wait a moment for files to be properly copied\nsleep 1\n\n# Create lib directory for bundled libraries\nmkdir -p \"${RESOURCES_DIR}/lib\"\n\n# Function to fix library dependencies\nfix_library_dependencies() {\n    local executable=\"$1\"\n    local lib_dir=\"${RESOURCES_DIR}/lib\"\n    \n    echo \"🔧 Fixing dependencies for: $(basename $executable)\"\n    \n    # Check if executable exists and is readable\n    if [[ ! -f \"$executable\" ]]; then\n        echo \"⚠️ Executable not found: $executable\"\n        return 0\n    fi\n    \n    if [[ ! -r \"$executable\" ]]; then\n        echo \"⚠️ Executable not readable: $executable\"\n        return 0\n    fi\n    \n    # Ensure executable has proper permissions\n    chmod +x \"$executable\" 2>/dev/null || true\n    \n    # Try to get dynamic library dependencies with error handling\n    local deps\n    if ! deps=$(otool -L \"$executable\" 2>/dev/null | grep -E \"^\\s*[^@]\" | awk '{print $1}' | grep -v \"$executable\"); then\n        echo \"⚠️ Could not analyze dependencies for: $(basename $executable) - this is normal for statically linked binaries\"\n        return 0\n    fi\n    \n    if [[ -z \"$deps\" ]]; then\n        echo \"ℹ️ No external dependencies found for: $(basename $executable) - likely statically linked\"\n        return 0\n    fi\n    \n    for dep in $deps; do\n        # Skip system libraries and self-references\n        if [[ \"$dep\" == /System/* ]] || [[ \"$dep\" == /usr/lib/* ]] || [[ \"$dep\" == /usr/bin/* ]]; then\n            continue\n        fi\n        \n        # Extract library name\n        local lib_name=$(basename \"$dep\")\n        local target_path=\"$lib_dir/$lib_name\"\n        \n        echo \"📦 Processing library: $lib_name\"\n        \n        # Copy library if it exists and is not a system library\n        if [[ -f \"$dep\" ]] && [[ \"$dep\" != /System/* ]] && [[ \"$dep\" != /usr/lib/* ]]; then\n            echo \"📋 Copying $lib_name to bundle...\"\n            if cp \"$dep\" \"$target_path\" 2>/dev/null; then\n                # Fix the library's own dependencies recursively\n                fix_library_dependencies \"$target_path\"\n                \n                # Update the executable to use the bundled library\n                if install_name_tool -change \"$dep\" \"@executable_path/../Resources/lib/$lib_name\" \"$executable\" 2>/dev/null; then\n                    echo \"✅ Updated $(basename $executable) to use bundled $lib_name\"\n                else\n                    echo \"⚠️ Failed to update $(basename $executable) for $lib_name\"\n                fi\n            else\n                echo \"⚠️ Failed to copy $lib_name to bundle\"\n            fi\n        fi\n    done\n}\n\n# Fix dependencies for aria2c and yt-dlp\nif [[ -f \"${RESOURCES_DIR}/aria2c\" ]]; then\n    fix_library_dependencies \"${RESOURCES_DIR}/aria2c\"\nelse\n    echo \"ℹ️ aria2c not found in resources\"\nfi\n\nif [[ -f \"${RESOURCES_DIR}/yt-dlp\" ]]; then\n    fix_library_dependencies \"${RESOURCES_DIR}/yt-dlp\"\nelse\n    echo \"ℹ️ yt-dlp not found in resources\"\nfi\n\necho \"✅ Library dependencies fixed successfully\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B27E222E22F1B200FC31E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B27E3E2E22F1B300FC31E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B27E452E22F1B300FC31E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B27E412E22F1B300FC31E4 /* SafarGet Extension */;
+			targetProxy = 18B27E442E22F1B300FC31E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B27E5E2E22F1B300FC31E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafarGet Extension/SafarGet_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 962D5T2KJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafarGet Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafarGet Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BASHEER.SafarGet.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18B27E5F2E22F1B300FC31E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafarGet Extension/SafarGet_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 962D5T2KJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafarGet Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafarGet Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BASHEER.SafarGet.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18B27E602E22F1B300FC31E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T5SAAY4958;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B27E612E22F1B300FC31E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T5SAAY4958;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		18B27E642E22F1B300FC31E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafarGet/SafarGet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 962D5T2KJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SafarGet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafarGet;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BASHEER.SafarGet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18B27E652E22F1B300FC31E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafarGet/SafarGet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 962D5T2KJT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SafarGet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SafarGet;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BASHEER.SafarGet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B27E212E22F1B200FC31E4 /* Build configuration list for PBXProject "SafarGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B27E602E22F1B300FC31E4 /* Debug */,
+				18B27E612E22F1B300FC31E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B27E5D2E22F1B300FC31E4 /* Build configuration list for PBXNativeTarget "SafarGet Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B27E5E2E22F1B300FC31E4 /* Debug */,
+				18B27E5F2E22F1B300FC31E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B27E632E22F1B300FC31E4 /* Build configuration list for PBXNativeTarget "SafarGet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B27E642E22F1B300FC31E4 /* Debug */,
+				18B27E652E22F1B300FC31E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B27E1E2E22F1B200FC31E4 /* Project object */;
+}

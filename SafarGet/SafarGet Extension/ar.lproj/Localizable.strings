@@ -1,0 +1,128 @@
+/* 
+  Localizable.strings (Arabic - Safari Extension)
+  SafarGet Extension
+
+  Created by SafarGet on 05/08/2025.
+*/
+
+// MARK: - Extension Messages
+"Download with SafarGet" = "تحميل بـ SafarGet";
+"Download this file" = "تحميل هذا الملف";
+"Download this video" = "تحميل هذا الفيديو";
+"Download this audio" = "تحميل هذا الصوت";
+"Download this image" = "تحميل هذه الصورة";
+"Download this document" = "تحميل هذا المستند";
+"Download this archive" = "تحميل هذا الأرشيف";
+"Download this executable" = "تحميل هذا الملف القابل للتنفيذ";
+"Download this torrent" = "تحميل هذا التورنت";
+
+// MARK: - Context Menu
+"Download Link" = "تحميل الرابط";
+"Download Image" = "تحميل الصورة";
+"Download Video" = "تحميل الفيديو";
+"Download Audio" = "تحميل الصوت";
+"Download File" = "تحميل الملف";
+"Download All Links" = "تحميل جميع الروابط";
+"Download All Images" = "تحميل جميع الصور";
+"Download All Videos" = "تحميل جميع الفيديوهات";
+
+// MARK: - Status Messages
+"Download started" = "بدأ التحميل";
+"Download added to queue" = "تم إضافة التحميل إلى القائمة";
+"Download failed" = "فشل التحميل";
+"Invalid URL" = "رابط غير صحيح";
+"File not supported" = "الملف غير مدعوم";
+"Network error" = "خطأ في الشبكة";
+"Connection failed" = "فشل الاتصال";
+
+// MARK: - Extension Info
+"SafarGet Download Manager" = "مدير تحميل SafarGet";
+"Fast and reliable download manager for macOS" = "مدير تحميل سريع وموثوق لـ macOS";
+"Download files, videos, and more with ease" = "حمّل الملفات والفيديوهات والمزيد بسهولة";
+"Support for multiple protocols and formats" = "دعم لعدة بروتوكولات وتنسيقات";
+"Advanced download management features" = "ميزات إدارة التحميل المتقدمة";
+
+// MARK: - Permissions
+"Permission Required" = "مطلوب إذن";
+"SafarGet needs permission to download files" = "SafarGet يحتاج إذن لتحميل الملفات";
+"Please allow access in Safari settings" = "يرجى السماح بالوصول في إعدادات Safari";
+"Go to Safari Settings" = "الذهاب إلى إعدادات Safari";
+"Extension Settings" = "إعدادات الإضافة";
+"Enable Extension" = "تفعيل الإضافة";
+"Disable Extension" = "إلغاء تفعيل الإضافة";
+
+// MARK: - File Types
+"Video Files" = "ملفات الفيديو";
+"Audio Files" = "ملفات الصوت";
+"Image Files" = "ملفات الصور";
+"Document Files" = "ملفات المستندات";
+"Archive Files" = "ملفات الأرشيف";
+"Executable Files" = "ملفات قابلة للتنفيذ";
+"Torrent Files" = "ملفات التورنت";
+"All Files" = "جميع الملفات";
+
+// MARK: - Quality Options
+"Best Quality" = "أفضل جودة";
+"High Quality" = "جودة عالية";
+"Medium Quality" = "جودة متوسطة";
+"Low Quality" = "جودة منخفضة";
+"Audio Only" = "صوت فقط";
+"Video Only" = "فيديو فقط";
+"Auto Select" = "اختيار تلقائي";
+
+// MARK: - Download Options
+"Download to Downloads folder" = "تحميل إلى مجلد التحميلات";
+"Download to custom location" = "تحميل إلى موقع مخصص";
+"Ask for location each time" = "اسأل عن الموقع في كل مرة";
+"Use default settings" = "استخدم الإعدادات الافتراضية";
+"Show download progress" = "إظهار تقدم التحميل";
+"Start download immediately" = "ابدأ التحميل فوراً";
+"Add to queue" = "إضافة إلى القائمة";
+
+// MARK: - Error Messages
+"Extension not available" = "الإضافة غير متاحة";
+"Please install SafarGet app" = "يرجى تثبيت تطبيق SafarGet";
+"App not running" = "التطبيق لا يعمل";
+"Please start SafarGet app" = "يرجى تشغيل تطبيق SafarGet";
+"Connection to app failed" = "فشل الاتصال بالتطبيق";
+"Please check app status" = "يرجى فحص حالة التطبيق";
+"Download limit reached" = "تم الوصول إلى حد التحميل";
+"Please wait for current downloads" = "يرجى الانتظار للتحميلات الحالية";
+
+// MARK: - Success Messages
+"Download added successfully" = "تم إضافة التحميل بنجاح";
+"File will be downloaded" = "سيتم تحميل الملف";
+"Check SafarGet app for progress" = "تحقق من تطبيق SafarGet للتقدم";
+"Download completed" = "اكتمل التحميل";
+"File saved successfully" = "تم حفظ الملف بنجاح";
+"Ready for download" = "جاهز للتحميل";
+"Download queued" = "التحميل في القائمة";
+
+// MARK: - Settings
+"Extension Settings" = "إعدادات الإضافة";
+"General" = "عام";
+"Downloads" = "التحميلات";
+"File Types" = "أنواع الملفات";
+"Quality" = "الجودة";
+"Location" = "الموقع";
+"Behavior" = "السلوك";
+"Notifications" = "الإشعارات";
+"Advanced" = "متقدم";
+
+// MARK: - Context Menu Settings
+"Show in context menu" = "إظهار في قائمة السياق";
+"Download options" = "خيارات التحميل";
+"Quick download" = "تحميل سريع";
+"Download with options" = "تحميل مع خيارات";
+"Always ask for options" = "اسأل دائماً عن الخيارات";
+"Use default settings" = "استخدم الإعدادات الافتراضية";
+
+// MARK: - Notifications
+"Download started" = "بدأ التحميل";
+"Download completed" = "اكتمل التحميل";
+"Download failed" = "فشل التحميل";
+"Download paused" = "توقف التحميل مؤقتاً";
+"Download resumed" = "استؤنف التحميل";
+"Download stopped" = "توقف التحميل";
+"All downloads completed" = "اكتملت جميع التحميلات";
+"Download queue empty" = "قائمة التحميل فارغة"; 

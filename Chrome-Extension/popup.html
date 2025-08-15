@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafarGet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 300px;
+            height: auto;
+            min-height: 200px;
+            max-height: 500px;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        /* RTL/LTR Support */
+        body.rtl {
+            direction: rtl;
+        }
+
+        body.ltr {
+            direction: ltr;
+        }
+
+        /* تأثير الخلفية المتحركة */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 1px, transparent 1px);
+            background-size: 15px 15px;
+            animation: float 20s infinite linear;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes float {
+            0% { background-position: 0 0; }
+            100% { background-position: 15px 15px; }
+        }
+
+        .container {
+            padding: 16px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        /* رأس التطبيق */
+        .header {
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            font-size: 10px;
+            color: rgba(255,255,255,0.8);
+            margin-top: 2px;
+            font-weight: 500;
+        }
+
+        /* Language Toggle */
+        .language-toggle {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            padding: 4px 8px;
+            font-size: 10px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        body.rtl .language-toggle {
+            right: auto;
+            left: 8px;
+        }
+
+        .language-toggle:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+
+        /* حالة الاتصال */
+        .status-section {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 12px;
+            padding: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ff4757;
+            position: relative;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .status-dot.connected {
+            background: #2ed573;
+            animation: pulse-green 2s infinite;
+        }
+
+        .status-dot.disconnected {
+            animation: pulse-red 2s infinite;
+        }
+
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(46, 213, 115, 0.7); }
+            70% { box-shadow: 0 0 0 6px rgba(46, 213, 115, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(46, 213, 115, 0); }
+        }
+
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0.7); }
+            70% { box-shadow: 0 0 0 6px rgba(255, 71, 87, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 71, 87, 0); }
+        }
+
+        .status-text {
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        /* مفتاح التبديل */
+        .toggle-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 12px;
+            padding: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .toggle-section:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .toggle-section:active {
+            transform: translateY(0);
+        }
+
+        .toggle-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .toggle-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            flex-shrink: 0;
+        }
+
+        .toggle-text {
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        /* مفتاح التبديل الحديث */
+        .modern-toggle {
+            width: 44px;
+            height: 24px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255,255,255,0.3);
+            flex-shrink: 0;
+        }
+
+        .modern-toggle.active {
+            background: linear-gradient(135deg, #2ed573, #17c0eb);
+            box-shadow: 0 0 15px rgba(46, 213, 115, 0.4);
+        }
+
+        .toggle-slider {
+            width: 18px;
+            height: 18px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        .modern-toggle.active .toggle-slider {
+            transform: translateX(20px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* RTL Toggle Slider */
+        body.rtl .toggle-slider {
+            left: auto;
+            right: 2px;
+        }
+
+        body.rtl .modern-toggle.active .toggle-slider {
+            transform: translateX(-20px);
+        }
+
+        /* تأثيرات التفاعل */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.4);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        /* حالة عدم الاتصال */
+        .toggle-section.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .toggle-section.disabled:hover {
+            transform: none;
+            background: rgba(255,255,255,0.15);
+        }
+
+        /* تأثيرات خاصة */
+        .glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                filter: drop-shadow(0 0 3px rgba(255,255,255,0.3));
+            }
+            to {
+                filter: drop-shadow(0 0 8px rgba(255,255,255,0.5));
+            }
+        }
+
+        /* تأثير الاهتزاز للأخطاء */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+            20%, 40%, 60%, 80% { transform: translateX(2px); }
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .keyboard-hint {
+            font-size: 9px;
+            color: rgba(255,255,255,0.6);
+            background: rgba(255,255,255,0.1);
+            padding: 4px 8px;
+            border-radius: 8px;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="ltr">
+    <div class="language-toggle" id="languageToggle">EN</div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="logo glow">SafarGet</div>
+            <div class="subtitle" data-i18n="subtitle">Download Manager</div>
+        </div>
+
+        <div class="status-section">
+            <div class="status-dot disconnected" id="statusDot"></div>
+            <div class="status-text" id="statusText" data-i18n="status.disconnected">Disconnected</div>
+        </div>
+
+        <div class="toggle-section" id="toggleSection">
+            <div class="toggle-left">
+                <div class="toggle-icon" id="toggleIcon">⚡</div>
+                <div class="toggle-text" data-i18n="interception">Interception</div>
+            </div>
+            <div class="modern-toggle active" id="modernToggle">
+                <div class="toggle-slider"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="keyboard-hint" data-i18n="keyboard_hint">Press Space to toggle</div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

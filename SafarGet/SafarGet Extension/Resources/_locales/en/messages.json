@@ -1,0 +1,178 @@
+{
+  "appName": {
+    "message": "SafarGet",
+    "description": "Application name"
+  },
+  "appDescription": {
+    "message": "Fast and reliable download manager for macOS",
+    "description": "Application description"
+  },
+  "downloadWithSafarGet": {
+    "message": "Download with SafarGet",
+    "description": "Main download message"
+  },
+  "downloadThisFile": {
+    "message": "Download this file",
+    "description": "Download a specific file"
+  },
+  "downloadThisVideo": {
+    "message": "Download this video",
+    "description": "Download a specific video"
+  },
+  "downloadThisAudio": {
+    "message": "Download this audio",
+    "description": "Download a specific audio"
+  },
+  "downloadThisImage": {
+    "message": "Download this image",
+    "description": "Download a specific image"
+  },
+  "downloadLink": {
+    "message": "Download Link",
+    "description": "Download a specific link"
+  },
+  "downloadImage": {
+    "message": "Download Image",
+    "description": "Download a specific image"
+  },
+  "downloadVideo": {
+    "message": "Download Video",
+    "description": "Download a specific video"
+  },
+  "downloadAudio": {
+    "message": "Download Audio",
+    "description": "Download a specific audio"
+  },
+  "downloadFile": {
+    "message": "Download File",
+    "description": "Download a specific file"
+  },
+  "downloadAllLinks": {
+    "message": "Download All Links",
+    "description": "Download all links"
+  },
+  "downloadAllImages": {
+    "message": "Download All Images",
+    "description": "Download all images"
+  },
+  "downloadAllVideos": {
+    "message": "Download All Videos",
+    "description": "Download all videos"
+  },
+  "downloadStarted": {
+    "message": "Download started",
+    "description": "Download start message"
+  },
+  "downloadAddedToQueue": {
+    "message": "Download added to queue",
+    "description": "Download added to queue message"
+  },
+  "downloadFailed": {
+    "message": "Download failed",
+    "description": "Download failed message"
+  },
+  "invalidUrl": {
+    "message": "Invalid URL",
+    "description": "Invalid URL message"
+  },
+  "fileNotSupported": {
+    "message": "File not supported",
+    "description": "File not supported message"
+  },
+  "networkError": {
+    "message": "Network error",
+    "description": "Network error message"
+  },
+  "connectionFailed": {
+    "message": "Connection failed",
+    "description": "Connection failed message"
+  },
+  "permissionRequired": {
+    "message": "Permission Required",
+    "description": "Permission required message"
+  },
+  "safarGetNeedsPermission": {
+    "message": "SafarGet needs permission to download files",
+    "description": "Permission needed message"
+  },
+  "pleaseAllowAccess": {
+    "message": "Please allow access in Safari settings",
+    "description": "Allow access message"
+  },
+  "goToSafariSettings": {
+    "message": "Go to Safari Settings",
+    "description": "Go to settings message"
+  },
+  "extensionSettings": {
+    "message": "Extension Settings",
+    "description": "Extension settings message"
+  },
+  "enableExtension": {
+    "message": "Enable Extension",
+    "description": "Enable extension message"
+  },
+  "disableExtension": {
+    "message": "Disable Extension",
+    "description": "Disable extension message"
+  },
+  "extensionNotAvailable": {
+    "message": "Extension not available",
+    "description": "Extension not available message"
+  },
+  "pleaseInstallSafarGet": {
+    "message": "Please install SafarGet app",
+    "description": "Install app message"
+  },
+  "appNotRunning": {
+    "message": "App not running",
+    "description": "App not running message"
+  },
+  "pleaseStartSafarGet": {
+    "message": "Please start SafarGet app",
+    "description": "Start app message"
+  },
+  "connectionToAppFailed": {
+    "message": "Connection to app failed",
+    "description": "Connection to app failed message"
+  },
+  "pleaseCheckAppStatus": {
+    "message": "Please check app status",
+    "description": "Check app status message"
+  },
+  "downloadLimitReached": {
+    "message": "Download limit reached",
+    "description": "Download limit reached message"
+  },
+  "pleaseWaitForCurrentDownloads": {
+    "message": "Please wait for current downloads",
+    "description": "Wait for current downloads message"
+  },
+  "downloadAddedSuccessfully": {
+    "message": "Download added successfully",
+    "description": "Download added successfully message"
+  },
+  "fileWillBeDownloaded": {
+    "message": "File will be downloaded",
+    "description": "File will be downloaded message"
+  },
+  "checkSafarGetAppForProgress": {
+    "message": "Check SafarGet app for progress",
+    "description": "Check progress message"
+  },
+  "downloadCompleted": {
+    "message": "Download completed",
+    "description": "Download completed message"
+  },
+  "fileSavedSuccessfully": {
+    "message": "File saved successfully",
+    "description": "File saved successfully message"
+  },
+  "readyForDownload": {
+    "message": "Ready for download",
+    "description": "Ready for download message"
+  },
+  "downloadQueued": {
+    "message": "Download queued",
+    "description": "Download queued message"
+  }
+}

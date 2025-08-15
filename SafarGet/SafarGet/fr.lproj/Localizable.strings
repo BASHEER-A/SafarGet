@@ -1,0 +1,610 @@
+/* 
+  Localizable.strings (French)
+  SafarGet
+
+  Created by SafarGet on 05/08/2025.
+*/
+
+// MARK: - General UI
+"Download" = "Télécharger";
+"Pause" = "Pause";
+"Resume" = "Reprendre";
+"Stop" = "Arrêter";
+"Restart" = "Redémarrer";
+"Delete" = "Supprimer";
+"Cancel" = "Annuler";
+"OK" = "OK";
+"Save" = "Enregistrer";
+"Open" = "Ouvrir";
+"Close" = "Fermer";
+"Settings" = "Paramètres";
+"Preferences" = "Préférences";
+"About" = "À propos";
+"Help" = "Aide";
+"Quit" = "Quitter";
+
+// MARK: - Download Status
+"Downloading" = "Téléchargement en cours";
+"Paused" = "En pause";
+"Completed" = "Terminé";
+"Failed" = "Échoué";
+"Waiting" = "En attente";
+"Starting" = "Démarrage";
+"Preparing" = "Préparation";
+"Stopped" = "Arrêté";
+
+// MARK: - Missing Translations
+"Add Files" = "Ajouter des fichiers";
+"Add Torrent" = "Ajouter un torrent";
+"Add Download" = "Ajouter un téléchargement";
+"Resume All Downloads" = "Reprendre tous les téléchargements";
+"Pause All Downloads" = "Mettre en pause tous les téléchargements";
+"Stop All Downloads" = "Arrêter tous les téléchargements";
+"Select All" = "Tout sélectionner";
+"Deselect All" = "Tout désélectionner";
+"Delete Selected" = "Supprimer la sélection";
+"Delete Completed" = "Supprimer les terminés";
+"Delete Incomplete" = "Supprimer les incomplets";
+"Clean Temp Files" = "Nettoyer les fichiers temporaires";
+"Delete All" = "Tout supprimer";
+"Actions" = "Actions";
+"All Downloads" = "Tous les téléchargements";
+"Downloading" = "Téléchargement en cours";
+"Video" = "Vidéo";
+"Document" = "Document";
+"Music" = "Musique";
+"Program" = "Programme";
+"Torrent" = "Torrent";
+"Speed Limit" = "Limite de vitesse";
+"Safari Extension" = "Extension Safari";
+"Chrome Extension" = "Extension Chrome";
+"Settings" = "Paramètres";
+"Delete Selected Downloads" = "Supprimer les téléchargements sélectionnés";
+"Delete Completed Downloads" = "Supprimer les téléchargements terminés";
+"Delete Incomplete Downloads" = "Supprimer les téléchargements incomplets";
+"Delete All Downloads" = "Supprimer tous les téléchargements";
+"Are you sure you want to delete the selected downloads?" = "Êtes-vous sûr de vouloir supprimer les téléchargements sélectionnés ?";
+"Are you sure you want to delete all completed downloads?" = "Êtes-vous sûr de vouloir supprimer tous les téléchargements terminés ?";
+"Are you sure you want to delete all incomplete downloads?" = "Êtes-vous sûr de vouloir supprimer tous les téléchargements incomplets ?";
+"Are you sure you want to delete all downloads? This action cannot be undone." = "Êtes-vous sûr de vouloir supprimer tous les téléchargements ? Cette action ne peut pas être annulée.";
+
+// MARK: - Additional Missing Translations
+"Re-download" = "Re-télécharger";
+
+// MARK: - Additional Button Translations
+"Open" = "Ouvrir";
+"Open With" = "Ouvrir avec";
+"Show in Folder" = "Afficher dans le dossier";
+"Retry" = "Réessayer";
+"Restart" = "Redémarrer";
+
+// MARK: - Settings Messages
+"Please enable notifications in System Preferences to receive download completion alerts." = "Veuillez activer les notifications dans les Préférences Système pour recevoir des alertes de fin de téléchargement.";
+
+// MARK: - Additional Settings Translations
+"Language" = "Langue";
+"Enabled" = "Activé";
+
+// MARK: - Additional Button Translations
+"Reset to Defaults" = "Réinitialiser aux valeurs par défaut";
+
+// MARK: - Additional Alert Titles
+"Notification Permission" = "Permission de notification";
+
+// MARK: - File Operations
+"Open File" = "Ouvrir le fichier";
+"Open With..." = "Ouvrir avec...";
+"Show in Folder" = "Afficher dans le dossier";
+"Copy URL" = "Copier l'URL";
+"Copy Filename" = "Copier le nom du fichier";
+"Restart Download" = "Redémarrer le téléchargement";
+
+// MARK: - Speed and Progress
+"Preparing..." = "Préparation...";
+"Calculating..." = "Calcul...";
+"Unknown" = "Inconnu";
+"downloaded" = "téléchargé";
+"remaining" = "restant";
+"at" = "à";
+"speed" = "vitesse";
+"progress" = "progression";
+
+// MARK: - Alerts and Messages
+"Full Disk Access Required" = "Accès complet au disque requis";
+"SafarGet requires Full Disk Access to download files. Please enable it in System Preferences." = "SafarGet nécessite un accès complet au disque pour télécharger des fichiers. Veuillez l'activer dans les Préférences Système.";
+"Open Settings" = "Ouvrir les paramètres";
+"Cancel" = "Annuler";
+"Error" = "Erreur";
+"Warning" = "Avertissement";
+"Success" = "Succès";
+"Information" = "Information";
+
+// MARK: - Download Manager
+"Download Manager" = "Gestionnaire de téléchargement";
+"Add Download" = "Ajouter un téléchargement";
+"Clear Completed" = "Effacer les terminés";
+"Clear All" = "Tout effacer";
+"Select All" = "Tout sélectionner";
+"Deselect All" = "Tout désélectionner";
+"Pause All" = "Tout mettre en pause";
+"Resume All" = "Tout reprendre";
+"Stop All" = "Tout arrêter";
+
+// MARK: - Settings
+"General" = "Général";
+"Downloads" = "Téléchargements";
+"Network" = "Réseau";
+"Advanced" = "Avancé";
+"Default Download Location" = "Emplacement de téléchargement par défaut";
+"Choose Folder" = "Choisir un dossier";
+"Auto-start Downloads" = "Démarrer automatiquement les téléchargements";
+"Show Download Speed" = "Afficher la vitesse de téléchargement";
+"Show Remaining Time" = "Afficher le temps restant";
+"Max Concurrent Downloads" = "Nombre maximum de téléchargements simultanés";
+"Connection Timeout" = "Délai d'attente de connexion";
+"Retry Failed Downloads" = "Réessayer les téléchargements échoués";
+"Max Retry Attempts" = "Nombre maximum de tentatives";
+
+// MARK: - Safari Extension
+"Safari Extension" = "Extension Safari";
+"Extension Status" = "État de l'extension";
+"Enable Extension" = "Activer l'extension";
+"Disable Extension" = "Désactiver l'extension";
+"Extension is enabled" = "L'extension est activée";
+"Extension is disabled" = "L'extension est désactivée";
+"Please enable the Safari extension to download files directly from Safari." = "Veuillez activer l'extension Safari pour télécharger des fichiers directement depuis Safari.";
+
+// MARK: - Notifications
+"Download Complete" = "Téléchargement terminé";
+"Download Failed" = "Téléchargement échoué";
+"Download Paused" = "Téléchargement en pause";
+"Download Resumed" = "Téléchargement repris";
+"Download Stopped" = "Téléchargement arrêté";
+
+// MARK: - File Types
+"Video" = "Vidéo";
+"Audio" = "Audio";
+"Document" = "Document";
+"Image" = "Image";
+"Archive" = "Archive";
+"Executable" = "Exécutable";
+"Other" = "Autre";
+
+// MARK: - Time
+"seconds" = "secondes";
+"minutes" = "minutes";
+"hours" = "heures";
+"days" = "jours";
+"ago" = "il y a";
+"remaining" = "restant";
+
+// MARK: - Network
+"Connected" = "Connecté";
+"Disconnected" = "Déconnecté";
+"Checking connection..." = "Vérification de la connexion...";
+"Network error" = "Erreur réseau";
+"Connection timeout" = "Délai d'attente de connexion dépassé";
+
+// MARK: - Torrent
+"Torrent" = "Torrent";
+"Torrent Files" = "Fichiers torrent";
+"Select Torrent File" = "Sélectionner un fichier torrent";
+"Torrent Info" = "Informations torrent";
+"Peers" = "Pairs";
+"Seeds" = "Seeders";
+"Leechers" = "Leechers";
+"Download Speed" = "Vitesse de téléchargement";
+"Upload Speed" = "Vitesse d'upload";
+"Ratio" = "Ratio";
+
+// MARK: - YouTube
+"YouTube" = "YouTube";
+"YouTube Video" = "Vidéo YouTube";
+"Select Quality" = "Sélectionner la qualité";
+"Video Quality" = "Qualité vidéo";
+"Audio Only" = "Audio uniquement";
+"Best Quality" = "Meilleure qualité";
+"Worst Quality" = "Pire qualité";
+
+// MARK: - Menu Items
+"File" = "Fichier";
+"Edit" = "Modifier";
+"View" = "Affichage";
+"Window" = "Fenêtre";
+"Help" = "Aide";
+"New Download" = "Nouveau téléchargement";
+"Open Downloads Folder" = "Ouvrir le dossier des téléchargements";
+"Preferences..." = "Préférences...";
+"Services" = "Services";
+"Hide SafarGet" = "Masquer SafarGet";
+"Hide Others" = "Masquer les autres";
+"Show All" = "Tout afficher";
+"Quit SafarGet" = "Quitter SafarGet";
+"Undo" = "Annuler";
+"Redo" = "Rétablir";
+"Cut" = "Couper";
+"Copy" = "Copier";
+"Paste" = "Coller";
+"Select All" = "Tout sélectionner";
+"Find" = "Rechercher";
+"Find and Replace" = "Rechercher et remplacer";
+"Bring All to Front" = "Tout ramener au premier plan";
+"Minimize" = "Réduire";
+"Zoom" = "Zoom";
+"Close Window" = "Fermer la fenêtre";
+"SafarGet Help" = "Aide SafarGet";
+"About SafarGet" = "À propos de SafarGet";
+
+// MARK: - Status Messages
+"Ready" = "Prêt";
+"Processing" = "Traitement en cours";
+"Connecting" = "Connexion en cours";
+"Downloading..." = "Téléchargement en cours...";
+"Paused by user" = "Mis en pause par l'utilisateur";
+"Paused due to network error" = "Mis en pause à cause d'une erreur réseau";
+"Resuming download" = "Reprise du téléchargement";
+"Stopping download" = "Arrêt du téléchargement";
+"Deleting files" = "Suppression des fichiers";
+"Cleaning up" = "Nettoyage";
+"Starting download" = "Démarrage du téléchargement";
+"Preparing download" = "Préparation du téléchargement";
+"Checking file" = "Vérification du fichier";
+"Validating download" = "Validation du téléchargement";
+"Moving file" = "Déplacement du fichier";
+"Renaming file" = "Renommage du fichier";
+
+// MARK: - Error Messages
+"Download failed" = "Le téléchargement a échoué";
+"Network error occurred" = "Une erreur réseau s'est produite";
+"File not found" = "Fichier introuvable";
+"Permission denied" = "Permission refusée";
+"Disk space insufficient" = "Espace disque insuffisant";
+"Invalid URL" = "URL invalide";
+"Connection timeout" = "Délai d'attente de connexion dépassé";
+"Server error" = "Erreur serveur";
+"File already exists" = "Le fichier existe déjà";
+"Invalid file format" = "Format de fichier invalide";
+"Download cancelled" = "Téléchargement annulé";
+"Unknown error" = "Erreur inconnue";
+
+// MARK: - Success Messages
+"Download completed successfully" = "Téléchargement terminé avec succès";
+"File saved successfully" = "Fichier enregistré avec succès";
+"Settings saved" = "Paramètres enregistrés";
+"Download started" = "Téléchargement démarré";
+"Download paused" = "Téléchargement mis en pause";
+"Download resumed" = "Téléchargement repris";
+"Download stopped" = "Téléchargement arrêté";
+"Files deleted successfully" = "Fichiers supprimés avec succès";
+
+// MARK: - Pro Features
+"Pro Features" = "Fonctionnalités Pro";
+"Upgrade to Pro" = "Passer à Pro";
+"Unlock All Features" = "Débloquer toutes les fonctionnalités";
+"Advanced Download Options" = "Options de téléchargement avancées";
+"Batch Downloads" = "Téléchargements par lot";
+"Priority Downloads" = "Téléchargements prioritaires";
+"Download Scheduling" = "Planification des téléchargements";
+"Advanced Speed Control" = "Contrôle de vitesse avancé";
+"Download History" = "Historique des téléchargements";
+"Export Downloads" = "Exporter les téléchargements";
+"Custom Themes" = "Thèmes personnalisés";
+"Priority Support" = "Support prioritaire";
+
+// MARK: - Language Settings
+"Language Changed" = "Langue modifiée";
+"Please restart the app for the language change to take effect." = "Veuillez redémarrer l'application pour que le changement de langue prenne effet.";
+"Language" = "Langue";
+"Choose your preferred language" = "Choisissez votre langue préférée";
+"English" = "English";
+"العربية" = "العربية";
+"Français" = "Français";
+
+// MARK: - Main App Interface
+"SafarGet" = "SafarGet";
+"Version 1.0.0 (25)" = "Version 1.0.0 (25)";
+"A powerful download manager for macOS" = "Un gestionnaire de téléchargement puissant pour macOS";
+"© 2025 SafarGet" = "© 2025 SafarGet";
+"All rights reserved" = "Tous droits réservés";
+"Add" = "Ajouter";
+"Actions" = "Actions";
+"All" = "Tout";
+"Active" = "Actif";
+"Completed" = "Terminé";
+"Failed" = "Échoué";
+"Cancel" = "Annuler";
+"Download" = "Télécharger";
+"OK" = "OK";
+"Got it" = "Compris";
+
+// MARK: - Download Interface
+"URL" = "URL";
+"Category" = "Catégorie";
+"Save To" = "Enregistrer dans";
+"Available: %@" = "Disponible: %@";
+"Threads" = "Threads";
+"File name" = "Nom du fichier";
+"No downloads" = "Aucun téléchargement";
+"Click '+' to add a download or drag files here" = "Cliquez '+' pour ajouter un téléchargement ou glissez des fichiers ici";
+"Paused" = "En pause";
+"MB/s" = "Mo/s";
+"0.00" = "0.00";
+"Avg: %@" = "Moy: %@";
+"ETA: %@" = "ETA: %@";
+"No Internet Connection" = "Pas de connexion Internet";
+"%d%%" = "%d%%";
+"%@ / %@" = "%@ / %@";
+"%@ downloaded" = "%@ téléchargé";
+
+// MARK: - Settings
+"Settings" = "Paramètres";
+"Speed Limit" = "Limite de vitesse";
+"Safari Extension" = "Extension Safari";
+"Chrome Extension" = "Extension Chrome";
+"SafarGet Pro" = "SafarGet Pro";
+"About" = "À propos";
+
+// MARK: - Torrent Interface
+"Add New Torrent" = "Ajouter un nouveau torrent";
+"%d File" = "%d fichier";
+"%d Files" = "%d fichiers";
+"%d Peers" = "%d pairs";
+"Connected" = "Connecté";
+"Searching..." = "Recherche...";
+"%d Seeds" = "%d seeds";
+"Available" = "Disponible";
+"None found" = "Aucun trouvé";
+"Disk Space" = "Espace disque";
+"%@ available of %@" = "%@ disponible sur %@";
+"Not enough disk space for selected files" = "Espace disque insuffisant pour les fichiers sélectionnés";
+"File Name" = "Nom du fichier";
+"(%d files)" = "(%d fichiers)";
+"Size" = "Taille";
+"#%d" = "#%d";
+"%@ of %@ file selected" = "%@ sur %@ fichier sélectionné";
+"%@ of %@ files selected" = "%@ sur %@ fichiers sélectionnés";
+"Select All" = "Tout sélectionner";
+"Select None" = "Ne rien sélectionner";
+"Download Location" = "Emplacement de téléchargement";
+"Browse..." = "Parcourir...";
+"Start downloading when torrent is added" = "Commencer le téléchargement quand le torrent est ajouté";
+"Don't show this dialog next time I add a torrent" = "Ne pas afficher cette boîte de dialogue la prochaine fois que j'ajoute un torrent";
+
+// MARK: - Notification Actions
+"Show in Finder" = "Afficher dans le Finder";
+
+// MARK: - Safari Extension Status
+"Safari Extensions Opened" = "Extensions Safari ouvertes";
+
+// MARK: - Additional Settings
+"yt-dlp Path" = "Chemin yt-dlp";
+"aria2c Path" = "Chemin aria2c";
+
+// MARK: - Document Category
+"Document" = "Document";
+
+// MARK: - Additional Alert Messages
+"Extension built successfully!" = "Extension construite avec succès!";
+"Failed to build Safari Extension" = "Échec de la construction de l'extension Safari";
+"Error building Safari Extension" = "Erreur lors de la construction de l'extension Safari";
+"Could not find build script" = "Impossible de trouver le script de construction";
+
+// MARK: - Pro Features
+"Unlock Premium Features" = "Débloquer les fonctionnalités premium";
+"Logout" = "Se déconnecter";
+"Subscription Details" = "Détails de l'abonnement";
+"Sign in to SafarGet Pro" = "Se connecter à SafarGet Pro";
+"Email" = "E-mail";
+"Password" = "Mot de passe";
+"Confirm Password" = "Confirmer le mot de passe";
+"Sign In" = "Se connecter";
+"Create Account" = "Créer un compte";
+
+// MARK: - Safari Extension
+"Checking Safari Extension Status..." = "Vérification du statut de l'extension Safari...";
+"SafarGet's extension is currently on." = "L'extension SafarGet est actuellement activée.";
+"You can turn it off in the Extensions section of Safari Settings." = "Vous pouvez la désactiver dans la section Extensions des paramètres Safari.";
+"Quit and Open Safari Extensions Preferences…" = "Quitter et ouvrir les préférences des extensions Safari...";
+"Continue without Extension" = "Continuer sans extension";
+
+// MARK: - System Messages
+"Full Disk Access Required" = "Accès complet au disque requis";
+"SafarGet requires Full Disk Access to download files. Please enable it in System Preferences." = "SafarGet nécessite un accès complet au disque pour télécharger des fichiers. Veuillez l'activer dans les Préférences Système.";
+"Open Settings" = "Ouvrir les paramètres";
+
+// MARK: - Categories
+"All" = "Tout";
+"Video" = "Vidéo";
+"Music" = "Musique";
+"Document" = "Document";
+"Archive" = "Archive";
+"Application" = "Application";
+
+// MARK: - Numbers
+"8" = "8";
+"16" = "16";
+"32" = "32";
+
+// MARK: - Menu Items
+"SafarGet" = "SafarGet";
+"About SafarGet" = "À propos de SafarGet";
+"Hide SafarGet" = "Masquer SafarGet";
+"Hide Others" = "Masquer les autres";
+"Show All" = "Tout afficher";
+"Quit SafarGet" = "Quitter SafarGet";
+"File" = "Fichier";
+"New Download" = "Nouveau téléchargement";
+"Help" = "Aide";
+"SafarGet Help" = "Aide SafarGet";
+
+// MARK: - Download Actions
+"Pause" = "Pause";
+"Stop" = "Arrêter";
+"Resume" = "Reprendre";
+"Restart" = "Redémarrer";
+"Open" = "Ouvrir";
+"Open With" = "Ouvrir avec";
+"Show in Folder" = "Afficher dans le dossier";
+"Retry" = "Réessayer";
+
+// MARK: - Settings Items
+"Launch at Startup" = "Lancer au démarrage";
+"Start SafarGet when macOS starts" = "Lancer SafarGet au démarrage de macOS";
+"Show in Menu Bar" = "Afficher dans la barre de menu";
+"Display download status in the menu bar" = "Afficher le statut de téléchargement dans la barre de menu";
+"Smart Thread Management" = "Gestion intelligente des threads";
+"Automatically detects best thread count" = "Détecte automatiquement le meilleur nombre de threads";
+"Download Notifications" = "Notifications de téléchargement";
+"Show notifications when downloads complete" = "Afficher les notifications quand les téléchargements sont terminés";
+"Notification Sound" = "Son de notification";
+"Play sound with notifications" = "Jouer un son avec les notifications";
+"yt-dlp Path" = "Chemin yt-dlp";
+"aria2c Path" = "Chemin aria2c";
+
+// MARK: - Pro Features
+"Start Date" = "Date de début";
+"End Date" = "Date de fin";
+"Days Remaining" = "Jours restants";
+"Status" = "Statut";
+
+// MARK: - Notifications
+"Internet Restored" = "Internet restauré";
+"Safari Extension" = "Extension Safari";
+"Extension built successfully!" = "Extension construite avec succès!";
+"Build Error" = "Erreur de construction";
+"Failed to build Safari Extension" = "Échec de la construction de l'extension Safari";
+"Error building Safari Extension" = "Erreur lors de la construction de l'extension Safari";
+"Could not find build script" = "Impossible de trouver le script de construction";
+
+// MARK: - Alert Buttons
+"Resume Existing" = "Reprendre l'existant";
+"Add New Download" = "Ajouter un nouveau téléchargement";
+"Open File" = "Ouvrir le fichier";
+"Re-download (New Name)" = "Re-télécharger (nouveau nom)";
+"Start Over" = "Recommencer";
+"Download with New Name" = "Télécharger avec un nouveau nom";
+
+// MARK: - Categories Extended
+"All Downloads" = "Tous les téléchargements";
+"Downloading" = "Téléchargement";
+"Completed" = "Terminé";
+"Program" = "Programme";
+"Torrent" = "Torrent";
+
+// MARK: - Additional UI Elements
+"File" = "Fichier";
+"Files" = "Fichiers";
+"Peers" = "Pairs";
+"Seeds" = "Seeds";
+"Connected" = "Connecté";
+"Searching..." = "Recherche...";
+"Available" = "Disponible";
+"None found" = "Aucun trouvé";
+"Disk Space" = "Espace disque";
+"%@ available of %@" = "%@ disponible sur %@";
+"Not enough disk space for selected files" = "Espace disque insuffisant pour les fichiers sélectionnés";
+"File Name" = "Nom du fichier";
+"(%d files)" = "(%d fichiers)";
+"Size" = "Taille";
+"#%d" = "#%d";
+"%@ of %@ file selected" = "%@ sur %@ fichier sélectionné";
+"%@ of %@ files selected" = "%@ sur %@ fichiers sélectionnés";
+"Select All" = "Tout sélectionner";
+"Select None" = "Ne rien sélectionner";
+"Download Location" = "Emplacement de téléchargement";
+"Browse..." = "Parcourir...";
+"Start downloading when torrent is added" = "Commencer le téléchargement quand le torrent est ajouté";
+"Don't show this dialog next time I add a torrent" = "Ne pas afficher cette boîte de dialogue la prochaine fois que j'ajoute un torrent"; 
+
+// MARK: - Safari Extension Status Messages
+"SafarGet's extension is currently off." = "L'extension SafarGet est actuellement désactivée.";
+"You can turn it on in the Extensions section of Safari Settings." = "Vous pouvez l'activer dans la section Extensions des paramètres Safari.";
+"You can turn on SafarGet's extension in the Extensions section of Safari Settings." = "Vous pouvez activer l'extension SafarGet dans la section Extensions des paramètres Safari.";
+
+// MARK: - Settings Subtitles
+"Start SafarGet when macOS starts" = "Lancer SafarGet au démarrage de macOS";
+"Choose your preferred language" = "Choisissez votre langue préférée";
+"Display download status in the menu bar" = "Afficher le statut de téléchargement dans la barre de menu";
+"Automatically detects best thread count" = "Détecte automatiquement le meilleur nombre de threads";
+"Show notifications when downloads complete" = "Afficher les notifications quand les téléchargements sont terminés";
+"Play sound with notifications" = "Jouer un son avec les notifications";
+
+// MARK: - Additional Alert Buttons
+"Resume" = "Reprendre";
+
+// MARK: - Additional Status Messages
+"All rights reserved" = "Tous droits réservés";
+
+// MARK: - Additional UI Text
+"Threads" = "Threads";
+"\(threadCount)" = "\(threadCount)";
+
+// MARK: - Additional Safari Extension Messages
+"Quit and Open Safari Extensions Preferences…" = "Quitter et ouvrir les préférences des extensions Safari...";
+
+// MARK: - Additional Pro Features
+"Pro Features" = "Fonctionnalités Pro";
+"Subscription Details" = "Détails de l'abonnement";
+"Logout" = "Déconnexion";
+
+// MARK: - Additional Download Status
+"Failed" = "Échec";
+
+// MARK: - Additional Settings
+"Chrome Extension" = "Extension Chrome";
+
+// MARK: - Additional Counters
+"\(count)" = "\(count)";
+
+// MARK: - Additional File Operations
+"\(Int(displayProgress * 100))%" = "\(Int(displayProgress * 100))%";
+"\(viewModel.formatFileSize(item.downloadedSize)) / \(viewModel.formatFileSize(item.fileSize))" = "\(viewModel.formatFileSize(item.downloadedSize)) / \(viewModel.formatFileSize(item.fileSize))";
+"\(viewModel.formatFileSize(item.downloadedSize)) downloaded" = "\(viewModel.formatFileSize(item.downloadedSize)) téléchargé";
+"Avg: \(formatSpeed(stableSpeed))" = "Moy: \(formatSpeed(stableSpeed))";
+"ETA: \(stableRemainingTime)" = "Temps restant: \(stableRemainingTime)";
+
+// MARK: - Additional Torrent Text
+"\(torrentInfo.filesCount) File" = "\(torrentInfo.filesCount) fichier";
+"\(torrentInfo.filesCount) Files" = "\(torrentInfo.filesCount) fichiers";
+"\(torrentInfo.peersCount) Peers" = "\(torrentInfo.peersCount) pairs";
+"\(torrentInfo.seedsCount) Seeds" = "\(torrentInfo.seedsCount) seeds";
+"\(formatFileSize(availableSpace)) available of \(formatFileSize(totalSpace))" = "\(formatFileSize(availableSpace)) disponible sur \(formatFileSize(totalSpace))";
+"(\(filesCount) files)" = "(\(filesCount) fichiers)";
+"#\(file.index)" = "#\(file.index)";
+"\(Int(Double(file.size) / Double(totalSize) * 100))%" = "\(Int(Double(file.size) / Double(totalSize) * 100))%";
+"\(selectedCount) of \(totalCount) file selected" = "\(selectedCount) sur \(totalCount) fichier sélectionné";
+"\(selectedCount) of \(totalCount) files selected" = "\(selectedCount) sur \(totalCount) fichiers sélectionnés";
+
+// MARK: - Additional Counters
+"\(viewModel.downloads.filter { $0.status == .downloading }.count)" = "\(viewModel.downloads.filter { $0.status == .downloading }.count)";
+"\(viewModel.downloads.filter { $0.status == .completed }.count)" = "\(viewModel.downloads.filter { $0.status == .completed }.count)";
+
+// MARK: - Additional Speed Units
+"0.00" = "0.00";
+
+// MARK: - Additional Menu Items
+"Edit" = "Modifier";
+"View" = "Affichage";
+"Window" = "Fenêtre";
+"Open Downloads Folder" = "Ouvrir le dossier des téléchargements";
+"Preferences..." = "Préférences...";
+"Services" = "Services";
+"Undo" = "Annuler";
+"Redo" = "Rétablir";
+"Cut" = "Couper";
+"Copy" = "Copier";
+"Paste" = "Coller";
+"Find" = "Rechercher";
+"Find and Replace" = "Rechercher et remplacer";
+"Bring All to Front" = "Tout ramener au premier plan";
+"Minimize" = "Réduire";
+"Zoom" = "Zoom";
+"Close Window" = "Fermer la fenêtre"; 
+
+// MARK: - Appearance Settings
+"Appearance" = "Apparence";
+"App Transparency" = "Transparence de l'application";
+"Adjust the transparency level of the app" = "Ajuster le niveau de transparence de l'application";
+"Color Tint" = "Teinte de couleur";
+"Adjust the color intensity of the app" = "Ajuster l'intensité de couleur de l'application";
+"Reset to Default" = "Réinitialiser aux valeurs par défaut"; 

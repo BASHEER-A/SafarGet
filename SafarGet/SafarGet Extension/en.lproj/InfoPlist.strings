@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings (English - Safari Extension)
+  SafarGet Extension
+
+  Created by SafarGet on 05/08/2025.
+*/
+
+CFBundleDisplayName = "SafarGet";
+CFBundleName = "SafarGet";
+NSHumanReadableCopyright = "© 2025 SafarGet. All rights reserved."; 

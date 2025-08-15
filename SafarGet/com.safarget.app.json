@@ -1,0 +1,9 @@
+{
+    "name": "com.safarget.app",
+    "description": "SafarGet Download Manager Native Messaging Host",
+    "path": "/Applications/SafarGet.app/Contents/MacOS/SafarGet",
+    "type": "stdio",
+    "allowed_origins": [
+        "safari-extension://BASHEER.SafarGet.Extension"
+    ]
+} 

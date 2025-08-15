@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Download Manager - Golden Solution",
+    "version": "3.1.0",
+    "description": "🎯 الحل الذهبي: اعتراض نافذة Download Permission في Safari - يعمل مع جميع المواقع المعقدة",
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": ["*://*/*"],
+        "all_frames": true,
+        "run_at": "document_start"
+    }],
+    
+    "web_accessible_resources": [{
+        "resources": ["download-permission-interceptor.js"],
+        "matches": ["*://*/*"]
+    }],
+    
+    "permissions": [
+        "nativeMessaging",
+        "tabs",
+        "storage",
+        "activeTab",
+        "webRequest"
+    ],
+    
+    "browser_specific_settings": {
+        "safari": {
+            "strict_min_version": "14.0"
+        }
+    }
+}
