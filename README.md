@@ -4,38 +4,26 @@ SafarGet isn't just a download manager; it is the only all-in-one ecosystem for 
 Visit Official Website → https://www.safarget.com
  
 --
- 🖼️ Screenshots
 
-<table>
-<tr>
-<td align="center">
-  <img src="assets/screenshots/main-ui.png" width="150"><br>
-  Main Interface
-</td>
-<td align="center">
-  <img src="assets/screenshots/bar.png" width="150"><br>
-  Download Bar
-</td>
-<td align="center">
-  <img src="assets/screenshots/Download-SafarGet-Extension.png" width="150"><br>
-  Safari Extension
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img src="assets/screenshots/Extension-YouTube.png" width="150"><br>
-  YouTube Extension
-</td>
-<td align="center">
-  <img src="assets/screenshots/torrent.png" width="150"><br>
-  Torrent Support
-</td>
-<td align="center">
-  <img src="assets/screenshots/Youtube.png" width="150"><br>
-  YouTube Download
-</td>
-</tr>
-</table>
+## 🖼️ Screenshots
+
+### Main Interface
+![Main Interface](assets/screenshots/main-ui.png)
+
+### Download Bar
+![Download Bar](assets/screenshots/bar.png)
+
+### Safari Extension
+![Safari Extension](assets/screenshots/Download-SafarGet-Extension.png)
+
+### YouTube Extension
+![YouTube Extension](assets/screenshots/Extension-Youtube.png)
+
+### Torrent Support
+![Torrent Support](assets/screenshots/torrent.png)
+
+### YouTube Download
+![YouTube Download](assets/screenshots/Youtube.png)
 --
 ## ✨ Key Features
 
@@ -53,7 +41,7 @@ It can intelligently handle different types of links within one workflow:
 
 No need to switch between multiple apps.
 
----
+--
 
 ### 📥 Torrent Support
 - Native torrent handling
