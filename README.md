@@ -3,20 +3,39 @@ SafarGet isn't just a download manager; it is the only all-in-one ecosystem for 
 
 Visit Official Website → https://www.safarget.com
  
----
+--
 ## 🖼️ Screenshots
 
-<p align="center">
-  <img src="assets/screenshots/main-ui.png" width="30%" alt="Main Interface" />
-  <img src="assets/screenshots/bar.png" width="30%" alt="Download Bar" />
-  <img src="assets/screenshots/Download-SafarGet-Extension.png" width="30%" alt="Safari Extension" />
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/Extension-YouTube.png" width="30%" alt="YouTube Extension" />
-  <img src="assets/screenshots/torrent.png" width="30%" alt="Torrent Support" />
-  <img src="assets/screenshots/Youtube.png" width="30%" alt="YouTube Download" />
-</p>
+<table>
+<tr>
+<td align="center">
+  <img src="assets/screenshots/main-ui.png" width="150"><br>
+  Main Interface
+</td>
+<td align="center">
+  <img src="assets/screenshots/bar.png" width="150"><br>
+  Download Bar
+</td>
+<td align="center">
+  <img src="assets/screenshots/Download-SafarGet-Extension.png" width="150"><br>
+  Safari Extension
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="assets/screenshots/Extension-YouTube.png" width="150"><br>
+  YouTube Extension
+</td>
+<td align="center">
+  <img src="assets/screenshots/torrent.png" width="150"><br>
+  Torrent Support
+</td>
+<td align="center">
+  <img src="assets/screenshots/Youtube.png" width="150"><br>
+  YouTube Download
+</td>
+</tr>
+</table>
 --
 ## ✨ Key Features
 
