@@ -4,7 +4,7 @@ SafarGet isn't just a download manager; it is the only all-in-one ecosystem for 
 Visit Official Website → https://www.safarget.com
  
 --
-## 🖼️ Screenshots
+ 🖼️ Screenshots
 
 <table>
 <tr>
