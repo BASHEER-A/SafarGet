@@ -6,23 +6,17 @@ Visit Official Website → https://www.safarget.com
 ---
 ## 🖼️ Screenshots
 
-### Main Interface
-![Main Interface](assets/screenshots/main-ui.png)
+<p align="center">
+  <img src="assets/screenshots/main-ui.png" width="30%" alt="Main Interface" />
+  <img src="assets/screenshots/bar.png" width="30%" alt="Download Bar" />
+  <img src="assets/screenshots/Download-SafarGet-Extension.png" width="30%" alt="Safari Extension" />
+</p>
 
-### Download Bar
-![Download Bar](assets/screenshots/bar.png)
-
-### Safari Extension
-![Safari Extension](assets/screenshots/Download SafarGet Extension .png)
-
-### YouTube Extension
-![YouTube Extension](assets/screenshots/Extension Youtube.png)
-
-### Torrent Support
-![Torrent Support](assets/screenshots/torrent.png)
-
-### YouTube Download
-![YouTube Download](assets/screenshots/Youtube.png)
+<p align="center">
+  <img src="assets/screenshots/Extension-YouTube.png" width="30%" alt="YouTube Extension" />
+  <img src="assets/screenshots/torrent.png" width="30%" alt="Torrent Support" />
+  <img src="assets/screenshots/Youtube.png" width="30%" alt="YouTube Download" />
+</p>
 
 
 ## ✨ Key Features
