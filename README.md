@@ -1,131 +1,93 @@
-# SafarGet
-SafarGet isn't just a download manager; it is the only all-in-one ecosystem for macOS that bridges the gap between web browsing and local storage. Engineered for power users, it combines high-velocity multi-threading, native BitTorrent support, and a seamless YouTube extraction engine into one stunning interface.
+# 🚀 SafarGet: The Ultimate macOS Download Ecosystem
 
-Visit Official Website → https://www.safarget.com
- 
---
+SafarGet isn't just a download manager; it is the **only** all-in-one ecosystem for macOS that bridges the gap between web browsing and local storage. Engineered for power users, it combines high-velocity multi-threading, native BitTorrent support, and a seamless YouTube extraction engine into one stunning interface.
+
+[**🌐 Visit Official Website**](https://www.safarget.com) | [**📥 Download Now**](https://www.safarget.com/download)
+
+---
 
 ## 🖼️ Screenshots
 
 ### Main Interface
-![Main Interface](assets/screenshots/main-ui.png)
+![Main Interface](mune.jpg)
 
-### Download Bar
-![Download Bar](assets/screenshots/bar.png)
+### Download Bar & System Integration
+![Download Bar](bar.png)
 
-### Safari Extension
-![Safari Extension](assets/screenshots/Download-SafarGet-Extension.png)
+### Browser Extensions (Safari & Chrome)
+![Safari Extension](Add-Download-SafarGet-Extension.jpg)
+![YouTube Extension](Extension-Youtube.jpg)
 
-### YouTube Extension
-![YouTube Extension](assets/screenshots/Extension-Youtube.png)
+### Torrent & Media Management
+![Torrent Support](torrent.jpg)
+![YouTube Download](Youtube.jpg)
 
-### Torrent Support
-![Torrent Support](assets/screenshots/torrent.png)
+---
 
-### YouTube Download
-![YouTube Download](assets/screenshots/Youtube.png)
---
 ## ✨ Key Features
 
-### 🚀 Accelerated Downloads
-- Multi-connection segmented downloading for faster speeds
-- Smart resume support
-- Stable performance even with large files
+### 🚀 Turbo-Charged Downloads
+- **Hyper-Threading:** Multi-connection segmented downloading for maximum bandwidth utilization.
+- **Smart Resume:** Advanced error recovery to resume interrupted downloads.
+- **Large File Optimization:** Rock-solid stability even for 100GB+ files.
 
-### 🔗 Universal Link Handling
-SafarGet is built around links.
-It can intelligently handle different types of links within one workflow:
-- Direct file download links
-- Streaming media links
-- Magnet and torrent links
-
-No need to switch between multiple apps.
-
---
-
-### 📥 Torrent Support
-- Native torrent handling
-- Clean and simple torrent management
-- No external torrent client required
+### 🔗 Universal Link Handling (The SafarGet Edge)
+SafarGet is the only tool built entirely around the "Link Workflow." It intelligently captures and processes:
+- **Direct Links:** Fast-lane downloading for servers.
+- **Streaming Media:** Automatic detection of video/audio streams.
+- **BitTorrent:** Full support for `.torrent` files and Magnet links.
+*No more switching between 3 different apps; SafarGet handles everything.*
 
 ---
 
-### 🎬 Online Video Downloads
-- Download videos from supported platforms
-- Multiple quality and format options
-- Designed for personal and offline use
+### 📥 Pro-Grade Torrent Support
+- **Native Engine:** No need for external clients like uTorrent or Transmission.
+- **Clean Management:** Manage peers, seeds, and files within the same UI.
+- **Lightweight:** Minimal CPU/RAM impact compared to traditional clients.
 
-> Users are responsible for how downloaded content is used.
-
----
-
-### 🧠 Smart Integration
-- Safari & Chrome browser integration
-- Automatic link detection
-- One-click download initiation
+### 🎬 Online Video Excellence
+- **Platform Agnostic:** Download from YouTube and other supported platforms.
+- **UHD Quality:** Choose your resolution (4K, 2K, 1080p) or extract high-quality audio (MP3/M4A).
+- **Batch Processing:** Handle multiple video links simultaneously.
 
 ---
 
-### 🍎 Native macOS Experience
-- Built specifically for macOS (not Electron)
-- Optimized for Apple Silicon (M1 / M2 / M3) and intel 
-- Clean, modern macOS-style UI
-- Low system resource usage
-
-
+### 🧠 Deep macOS Integration
+- **Extension Suite:** Native extensions for **Safari** and **Chrome**.
+- **Apple Silicon Native:** Optimized for M1, M2, and M3 chips, with full support for Intel-based Macs.
+- **Menu Bar Utility:** Monitor speeds and progress at a glance without opening the app.
 
 ---
 
 ## 🧩 Why SafarGet?
 
-Most download managers on macOS are either:
-- Limited in functionality
-- Built using cross-platform frameworks
-- Focused on a single type of download
+Most macOS download managers are either outdated, built on slow cross-platform frameworks (Electron), or limited to one type of file. 
 
-SafarGet aims to be different by offering:
-- A single, integrated solution
-- Native performance
-- A workflow centered around links — not file types
+**SafarGet changes the game by offering:**
+1. **A Single Source of Truth:** One app for Torrents, Videos, and Direct links.
+2. **Native Performance:** Written specifically for macOS to ensure speed and low battery drain.
+3. **Seamless Workflow:** If it’s a link, SafarGet knows what to do with it.
 
 ---
 
 ## 💻 System Requirements
 
-- macOS 12 or later
-- Apple Silicon (Intel support may be limited)
-- Internet connection
-
----
-
-## 🧪 Testing & Feedback
-
-SafarGet is actively developed.
-
-Feedback from macOS users is highly appreciated:
-- Feature requests
-- Bug reports
-- Performance observations
-
-Please use **GitHub Issues** to share your feedback.
+- **OS:** macOS 12.0 (Monterey) or later.
+- **Architecture:** Apple Silicon (Universal) & Intel.
+- **Browser:** Safari, Chrome, or Edge (for extension support).
 
 ---
 
 ## 🔒 Privacy & Security
 
-- No hidden background processes
-- No unnecessary data collection
-- User data remains local unless explicitly required for functionality
+- **Local Processing:** Your download history and data stay on your Mac.
+- **No Bloatware:** Clean installation with no hidden background processes.
+- **Secure:** Verified for macOS security standards.
 
 ---
 
-## 🌐 Website
+## 📄 License & Feedback
 
-https://www.safarget.com
+SafarGet is proprietary software. This repository is dedicated to documentation, community feedback, and issue tracking.
 
----
-
-## 📄 License
-
-SafarGet is proprietary software.  
-This repository is used for documentation, issue tracking, and community feedback.
+**Found a bug?** Please [Open an Issue](https://github.com/your-repo/issues).
