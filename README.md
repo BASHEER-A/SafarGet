@@ -2,7 +2,7 @@
 
 <img src="assets/screenshots/icon.png" width="160" height="160" style="border-radius: 35px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 
-# 🚀 SafarGet Pro 2026
+# 🚀 SafarGet Pro for MacOS 2026
 ### **The World's #1 Ultra-Fast Download Ecosystem for macOS**
 **Experience the Future of Native Performance & Seamless Link Interception**
 
