@@ -5,23 +5,21 @@ SafarGet isn't just a download manager; it is the **only** all-in-one ecosystem 
 [**🌐 Visit Official Website**](https://www.safarget.com) | [**📥 Download Now**](https://www.safarget.com/download)
 
 ---
-
 ## 🖼️ Screenshots
 
 ### Main Interface
-![Main Interface](mune.jpg)
+![Main Interface](assets/screenshots/main-ui.png)
 
 ### Download Bar & System Integration
-![Download Bar](bar.png)
+![Download Bar](assets/screenshots/bar.png)
 
-### Browser Extensions (Safari & Chrome)
-![Safari Extension](Add-Download-SafarGet-Extension.jpg)
-![YouTube Extension](Extension-Youtube.jpg)
+### Browser Extensions
+![Safari Extension](assets/screenshots/Download-SafarGet-Extension.png)
+![YouTube Extension](assets/screenshots/Extension-YouTube.png)
 
 ### Torrent & Media Management
-![Torrent Support](torrent.jpg)
-![YouTube Download](Youtube.jpg)
-
+![Torrent Support](assets/screenshots/torrent.png)
+![YouTube Download](assets/screenshots/Youtube.png)
 ---
 
 ## ✨ Key Features
