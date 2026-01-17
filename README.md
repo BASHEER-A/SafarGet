@@ -4,7 +4,25 @@ SafarGet isn't just a download manager; it is the only all-in-one ecosystem for 
 Visit Official Website → https://www.safarget.com
  
 ---
+## 🖼️ Screenshots
 
+### Main Interface
+![Main Interface](assets/screenshots/main-ui.png)
+
+### Download Bar
+![Download Bar](assets/screenshots/bar.png)
+
+### Safari Extension
+![Safari Extension](assets/screenshots/Download SafarGet Extension .png)
+
+### YouTube Extension
+![YouTube Extension](assets/screenshots/Extension Youtube.png)
+
+### Torrent Support
+![Torrent Support](assets/screenshots/torrent.png)
+
+### YouTube Download
+![YouTube Download](assets/screenshots/Youtube.png)
 
 
 ## ✨ Key Features
@@ -54,13 +72,7 @@ No need to switch between multiple apps.
 - Clean, modern macOS-style UI
 - Low system resource usage
 
----
 
-## 🖼️ Screenshots
-
-> Screenshots showcasing the main interface, download manager, and integrated features.
-
-(Add your screenshots here)
 
 ---
 
