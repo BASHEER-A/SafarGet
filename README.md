@@ -17,8 +17,7 @@ Visit Official Website → https://www.safarget.com
   <img src="assets/screenshots/torrent.png" width="30%" alt="Torrent Support" />
   <img src="assets/screenshots/Youtube.png" width="30%" alt="YouTube Download" />
 </p>
-
-
+--
 ## ✨ Key Features
 
 ### 🚀 Accelerated Downloads
