@@ -43,7 +43,7 @@ Most download managers on macOS are either heavy cross-platform ports or outdate
 | **Built-in Native BitTorrent Client** | Handles `.torrent` files and **Magnet Links** (`magnet:?xt=...`) with interactive file-tree selection, pause/resume, and seeding — no separate torrent app needed. |
 | **Menu Bar Live Telemetry** | Monitor active speeds (`MB/s`), progress percentages, and ETAs directly from the macOS menu bar or frosted-glass floating mini-bar. |
 | **1,000+ Supported Sources** | Native support for **YouTube**, **MEGA**, **Google Drive**, **GitHub**, **SourceForge**, **MediaFire**, **Dropbox**, **1fichier**, **Qiwi.gg**, **Torrent**, and 1,000+ HTTP/HTTPS/FTP sites. |
-| **Built for Apple Silicon** | Native performance on **M1, M2, M3, M4** and **Intel** Macs, signed with **Apple Developer ID**, with 100% local processing and zero external tracking. |
+| **Built for Apple Silicon** | Native performance on **M1, M2, M3, M4, M5, M6** and **Intel** Macs, signed with **Apple Developer ID**, with 100% local processing and zero external tracking. |
 
 ---
 
