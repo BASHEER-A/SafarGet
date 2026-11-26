@@ -205,9 +205,9 @@ SafarGet connects directly to your browser via local `localhost` messaging for i
 ## Frequently Asked Questions
 
 <details>
-<summary><b>Does SafarGet work on both Apple Silicon (M1/M2/M3/M4) and Intel Macs?</b></summary>
+<summary><b>Does SafarGet work on both Apple Silicon (M1, M2, M3,M4.M5 ,M6) and Intel Macs?</b></summary>
 <br/>
-Yes. SafarGet is natively optimized for Apple Silicon (M1, M2, M3, and M4) while maintaining full support for Intel-based Macs.
+Yes. SafarGet is natively optimized for Apple Silicon (M1, M2, M3,M4.M5 ,M6 and M ) while maintaining full support for Intel-based Macs.
 </details>
 
 <details>
